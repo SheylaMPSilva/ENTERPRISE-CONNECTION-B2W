@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@600&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+  position: relative;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background: #E3AE57;
+  background: -moz-linear-gradient(-45deg, #E3AE57 1%, #DC3D24 100%);
+  background: -webkit-linear-gradient(-45deg, #E3AE57 1%, #DC3D24 100%);
+  background: linear-gradient(135deg, #E3AE57 1%, #DC3D24 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E3AE57', endColorstr='#DC3D24', GradientType=1);
+  font: 100% Cumprum, Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 2em;
+}
+
+li {
+  float: left;
+  text-transform: lowercase;
+  font-size: 1.1em;
+  border: none;
+  width: 25%;
+  text-align: center;
+}
+
+a {
+  color: #DC3D24;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-bottom: 2px solid #666
+}
+
+h1 {
+  margin: 20em;
+  margin-block-start: 1em;
+  margin-block-end: .5em;
+  margin-inline-start: 5em;
+  margin-inline-end: 1em;
+  font-size: 2em;
+  letter-spacing: .2em;
+  word-spacing: 2em;
+  color: #358A5B;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 12em;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+  font-weight: normal;
+  font-size: 1.25em;
+  letter-spacing: .2em;
+  color: #E3AE57;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+p {
+  margin: .5em 10em .5em 25em;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+  text-align: justify;
+  color: #232B2B;
+}
+
+.thumb-first {
+  width: 980px;
+  height: 744px;
+  margin: .5em 1em .0em 10em;
+}
+
+figcaption {
+  margin: 0em 10em 1em 5em;
+  text-align: right;
+  font-size: small;
+}
+
+hr {
+
+  width: 50%;
+}
+
+img {
+  height: 250px;
+  width: 185px;
+  margin: .5em .0em .0em 1em;
+  align-items: flex-end;
+}
+
+.adicional {
+  color: #232B2B;
+}
+
+dl {
+  display: flexbox;
+  position: relative;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+dt {
+  color: #358A5B;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+dd {
+  margin: 0 0 1em 0;
+  padding: .5em;
+  text-align: center;
+  color: #232B2B;
+  font-style: italic;
+}
+
+footer {
+  font-size: 0.7em;
+  font-family: "MetaSerifBookItalic", Georgia, "Times New Roman", Times, serif;
+  margin: 0em 1em 2em 15em;
+  color: #232B2B;
+}
